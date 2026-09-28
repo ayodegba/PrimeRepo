@@ -1,8 +1,7 @@
 name: cicd-workflow with slack integration
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
   workflow_dispatch:
 jobs:
   build:
